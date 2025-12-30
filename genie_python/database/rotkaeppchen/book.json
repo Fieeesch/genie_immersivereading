@@ -1,0 +1,39 @@
+{
+  "id": "rotkaeppchen",
+  "title": "Little Red Riding Hood",
+  "author": "Brüder Grimm",
+  "created_at": "2025-12-11T16:05:04",
+  "cover": "cover.png",
+  "scenes": [
+    {
+      "index": 0,
+      "text": "Es war einmal ein kleines süßes Mädchen, das hatte jedermann lieb, der sie nur ansah, am allerliebsten aber ihre Großmutter, die wusste gar nicht, was sie alles dem Kinde geben sollte. Einmal schenkte sie ihm ein Käppchen von rotem Samt, und weil ihm das so wohl stand, und es nichts anders mehr tragen wollte, hieß es nur das Rotkäppchen. \n\nEines Tages sprach seine Mutter zu ihm: \"Komm, Rotkäppchen, da hast du ein Stück Kuchen und eine Flasche Wein, bring das der Großmutter hinaus; sie ist krank und schwach und wird sich daran laben. Mach dich auf, bevor es heiß wird, und wenn du hinauskommst, so geh hübsch sittsam und lauf nicht vom Wege ab, sonst fällst du und zerbrichst das Glas, und die Großmutter hat nichts. Und wenn du in ihre Stube kommst, so vergiss nicht guten Morgen zu sagen und guck nicht erst in allen Ecken herum!\"\n\n\"Ich will schon alles richtig machen,\" sagte Rotkäppchen zur Mutter, und gab ihr die Hand darauf. ",
+      "image_prompt": "Cozy rustic cottage interior with a simple grandmother’s room, wooden floor, small bed with plain linens, a sturdy wooden table, cupboard, and a window letting in soft daylight; modest, tidy, storybook German countryside style, warm and homely atmosphere, no people.",
+      "image_file": "rotkaeppchen/scene_0.png"
+    },
+    {
+      "index": 1,
+      "text": "Die Großmutter aber wohnte draußen im Wald, eine halbe Stunde vom Dorf. Wie nun Rotkäppchen in den Wald kam, begegnete ihm der Wolf. Rotkäppchen aber wusste nicht, was das für ein böses Tier war, und fürchtete sich nicht vor ihm. \"Guten Tag, Rotkäppchen!\" sprach er. \"Schönen Dank, Wolf!\" - \"Wo hinaus so früh, Rotkäppchen?\" - \"Zur Großmutter.\" - \"Was trägst du unter der Schürze?\" - \"Kuchen und Wein. Gestern haben wir gebacken, da soll sich die kranke und schwache Großmutter etwas zugut tun und sich damit stärken.\" - \"Rotkäppchen, wo wohnt deine Großmutter?\" - \"Noch eine gute Viertelstunde weiter im Wald, unter den drei großen Eichbäumen, da steht ihr Haus, unten sind die Nusshecken, das wirst du ja wissen,\" sagte Rotkäppchen. ",
+      "image_prompt": "Deep forest near a village, dense old trees and undergrowth, three towering oak trees marking a small rustic cottage. Around the house grow low nut hedges and woodland shrubs. Soft daylight filters through the canopy, creating a fairy-tale, slightly misty atmosphere.",
+      "image_file": "rotkaeppchen/scene_1.png"
+    },
+    {
+      "index": 2,
+      "text": "The wolf thought to himself, \"Now there is a tasty bite for me. Just how are you going to catch her?\" Then he said, \"Listen, Little Red Cap, haven't you seen the beautiful flowers that are blossoming in the woods? Why don't you go and take a look? And I don't believe you can hear how beautifully the birds are singing. You are walking along as though you were on your way to school in the village. It is very beautiful in the woods.\"\n\nLittle Red Cap opened her eyes and saw the sunlight breaking through the trees and how the ground was covered with beautiful flowers. She thought, \"If a take a bouquet to grandmother, she will be very pleased. Anyway, it is still early, and I'll be home on time.\" And she ran off into the woods looking for flowers. Each time she picked one she thought that she could see an even more beautiful one a little way off, and she ran after it, going further and further into the woods. ",
+      "image_prompt": "sunlit fairytale forest, tall trees with dancing sunrays through the branches, forest floor covered in many colorful wildflowers, soft moss and bushes, distant birds among the trees, narrow footpath fading into deeper, darker woodland, peaceful, bright morning atmosphere",
+      "image_file": "rotkaeppchen/scene_2.png"
+    },
+    {
+      "index": 3,
+      "text": "Der Wolf aber ging geradewegs nach dem Haus der Großmutter und klopfte an die Türe. \"Wer ist draußen?\" - \"Rotkäppchen, das bringt Kuchen und Wein, mach auf!\" - \"Drück nur auf die Klinke!\" rief die Großmutter, \"ich bin zu schwach und kann nicht aufstehen.\" \n\nDer Wolf drückte auf die Klinke, die Türe sprang auf und er ging, ohne ein Wort zu sprechen, gerade zum Bett der Großmutter und verschluckte sie. Dann tat er ihre Kleider an, setzte ihre Haube auf, legte sich in ihr Bett und zog die Vorhänge vor.",
+      "image_prompt": "Cozy old cottage bedroom interior with wooden beams, small windows, a simple bed with curtains and a high headboard, floral quilt and lace pillows, a bedside table with a candle, wooden floor, rustic furniture, warm dim light, and a closed wooden door.",
+      "image_file": "rotkaeppchen/scene_3.png"
+    },
+    {
+      "index": 4,
+      "text": "Rotkäppchen aber, war nach den Blumen herumgelaufen, und als es so viel zusammen hatte, dass es keine mehr tragen konnte, fiel ihm die Großmutter wieder ein, und es machte sich auf den Weg zu ihr. \n\nEs wunderte sich, dass die Tür aufstand, und wie es in die Stube trat, so kam es ihm so seltsam darin vor, dass es dachte: Ei, du mein Gott, wie ängstlich wird mir's heute zumut, und bin sonst so gerne bei der Großmutter! Es rief: \"Guten Morgen,\" bekam aber keine Antwort. Darauf ging es zum Bett und zog die Vorhänge zurück. Da lag die Großmutter und hatte die Haube tief ins Gesicht gesetzt und sah so wunderlich aus. \"Ei, Großmutter, was hast du für große Ohren!\" - \"Dass ich dich besser hören kann!\" - \"Ei, Großmutter, was hast du für große Augen!\" - \"Dass ich dich besser sehen kann!\" - \"Ei, Großmutter, was hast du für große Hände!\" - \"Dass ich dich besser packen kann!\" - \"Aber, Großmutter, was hast du für ein entsetzlich großes Maul!\" - \"Dass ich dich besser fressen kann!\" Kaum hatte der Wolf das gesagt, so tat er einen Satz aus dem Bette und verschlang das arme Rotkäppchen. ",
+      "image_prompt": "Small, old-fashioned cottage bedroom with wooden floor, simple bed with heavy curtains, bedside table, dim light from a small window, rustic furniture, exposed beams, cozy but slightly eerie atmosphere, door to the room standing wide open, muted colors, Grimm fairy tale style.",
+      "image_file": "rotkaeppchen/scene_4.png"
+    }
+  ]
+}

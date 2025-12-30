@@ -1,0 +1,39 @@
+{
+  "id": "hansel_und_gretel",
+  "title": "Hänsel und Gretel",
+  "author": "Brüder Grimm",
+  "created_at": "2025-12-11T16:04:42",
+  "cover": "cover.png",
+  "scenes": [
+    {
+      "index": 0,
+      "text": "Vor einem großen Walde wohnte ein armer Holzhacker mit seiner Frau und seinen zwei Kindern; das Bübchen hieß Hänsel und das Mädchen Gretel. \n\nEr hatte wenig zu beißen und zu brechen, und einmal, als große Teuerung ins Land kam, konnte er das tägliche Brot nicht mehr schaffen. Wie er sich nun abends im Bette Gedanken machte und sich vor Sorgen herumwälzte, seufzte er und sprach zu seiner Frau: \"Was soll aus uns werden? Wie können wir unsere armen Kinder ernähren da wir für uns selbst nichts mehr haben?\" - \"Weißt du was, Mann,\" antwortete die Frau, \"wir wollen morgen in aller Frühe die Kinder hinaus in den Wald führen, wo er am dicksten ist. Da machen wir ihnen ein Feuer an und geben jedem noch ein Stückchen Brot, dann gehen wir an unsere Arbeit und lassen sie allein. Sie finden den Weg nicht wieder nach Haus, und wir sind sie los.\" - \"Nein, Frau,\" sagte der Mann, \"das tue ich nicht; wie sollt ich's übers Herz bringen, meine Kinder im Walde allein zu lassen! Die wilden Tiere würden bald kommen und sie zerreißen.\" - \"Oh, du Narr,\" sagte sie, \"dann müssen wir alle viere Hungers sterben, du kannst nur die Bretter für die Särge hobeln,\" und ließ ihm keine Ruhe, bis er einwilligte. \"Aber die armen Kinder dauern mich doch,\" sagte der Mann.\n\nDie zwei Kinder hatten vor Hunger auch nicht einschlafen können und hatten gehört, was die Stiefmutter zum Vater gesagt hatte. Gretel weinte bittere Tränen und sprach zu Hänsel: \"Nun ist's um uns geschehen.\" - \"Still, Gretel,\" sprach Hänsel, \"gräme dich nicht, ich will uns schon helfen.\" ",
+      "image_prompt": "Small poor woodcutter’s hut at the edge of a large dark forest, simple timber house, thatched or wooden roof, tiny windows, sparse yard with chopped firewood, rough fence, dirt ground, twilight atmosphere, dense trees looming behind, rustic medieval European countryside setting.",
+      "image_file": "hansel_und_gretel/scene_0.png"
+    },
+    {
+      "index": 1,
+      "text": "Und als die Alten eingeschlafen waren, stand er auf, zog sein Röcklein an, machte die Untertüre auf und schlich sich hinaus. \n\nDa schien der Mond ganz hell, und die weißen Kieselsteine, die vor dem Haus lagen, glänzten wie lauter Batzen. Hänsel bückte sich und steckte so viele in sein Rocktäschlein, als nur hinein wollten. Dann ging er wieder zurück, sprach zu Gretel: \"Sei getrost, liebes Schwesterchen, und schlaf nur ruhig ein, Gott wird uns nicht verlassen,\" und legte sich wieder in sein Bett.\n\nAls der Tag anbrach, noch ehe die Sonne aufgegangen war, kam schon die Frau und weckte die beiden Kinder: \"Steht auf, ihr Faulenzer, wir wollen in den Wald gehen und Holz holen.\" Dann gab sie jedem ein Stückchen Brot und sprach: \"Da habt ihr etwas für den Mittag, aber eßt's nicht vorher auf, weiter kriegt ihr nichts.\" Gretel nahm das Brot unter die Schürze, weil Hänsel die Steine in der Tasche hatte. ",
+      "image_prompt": "Small rustic cottage at night with a low back door, pale moonlight shining brightly. White pebbles scattered before the house glow like coins. Simple rural setting, dirt path, sparse grass, shadows stretching in the moonlight, quiet forest edge in the background, calm and still atmosphere.",
+      "image_file": "hansel_und_gretel/scene_1.png"
+    },
+    {
+      "index": 2,
+      "text": "Danach machten sie sich alle zusammen auf den Weg nach dem Wald. Als sie ein Weilchen gegangen waren, stand Hänsel still und guckte nach dem Haus zurück und tat das wieder und immer wieder. Der Vater sprach: \"Hänsel, was guckst du da und bleibst zurück, hab acht und vergiß deine Beine nicht!\" - \"Ach, Vater,\" sagte Hänsel, \"ich sehe nach meinem weißen Kätzchen, das sitzt oben auf dem Dach und will mir Ade sagen.\" Die Frau sprach: \"Narr, das ist dein Kätzchen nicht, das ist die Morgensonne, die auf den Schornstein scheint.\" Hänsel aber hatte nicht nach dem Kätzchen gesehen, sondern immer einen von den blanken Kieselsteinen aus seiner Tasche auf den Weg geworfen.\n\nAls sie mitten in den Wald gekommen waren, sprach der Vater: \"Nun sammelt Holz, ihr Kinder, ich will ein Feuer anmachen, damit ihr nicht friert.\" Hänsel und Gretel trugen Reisig zusammen, einen kleinen Berg hoch. Das Reisig ward angezündet, und als die Flamme recht hoch brannte, sagte die Frau: \"Nun legt euch ans Feuer, ihr Kinder, und ruht euch aus, wir gehen in den Wald und hauen Holz. Wenn wir fertig sind, kommen wir wieder und holen euch ab.\"",
+      "image_prompt": "Dense, dark German forest at early morning, tall fir and pine trees, deep shadows, narrow path with scattered white pebbles. In a small clearing stands a bright campfire beside a high pile of gathered brushwood and twigs. Soft morning sunlight filters through mist between the trees.",
+      "image_file": "hansel_und_gretel/scene_2.png"
+    },
+    {
+      "index": 3,
+      "text": "Hänsel und Gretel saßen um das Feuer, und als der Mittag kam, aß jedes sein Stücklein Brot. Und weil sie die Schläge der Holzaxt hörten, so glaubten sie, ihr Vater wär' in der Nähe. Es war aber nicht die Holzaxt, es war ein Ast, den er an einen dürren Baum gebunden hatte und den der Wind hin und her schlug. \n\nUnd als sie so lange gesessen hatten, fielen ihnen die Augen vor Müdigkeit zu, und sie schliefen fest ein. ",
+      "image_prompt": "Deep dark forest clearing with a small campfire, surrounded by tall dense trees and dry undergrowth. A dry tree with a loose branch tied to it knocks in the wind. Soft daylight filters through the canopy, smoke curling upward, mood quiet, lonely, slightly eerie.",
+      "image_file": "hansel_und_gretel/scene_3.png"
+    },
+    {
+      "index": 4,
+      "text": "Als sie endlich erwachten, war es schon finstere Nacht. Gretel fing an zu weinen und sprach: \"Wie sollen wir nun aus dem Wald kommen?\" Hänsel aber tröstete sie: \"Wart nur ein Weilchen, bis der Mond aufgegangen ist, dann wollen wir den Weg schon finden.\" Und als der volle Mond aufgestiegen war, so nahm Hänsel sein Schwesterchern an der Hand und ging den Kieselsteinen nach, die schimmerten wie neugeschlagene Batzen und zeigten ihnen den Weg. \n\nSie gingen die ganze Nacht hindurch und kamen bei anbrechendem Tag wieder zu ihres Vaters Haus. Sie klopften an die Tür, und als die Frau aufmachte und sah, daß es Hänsel und Gretel waren, sprach sie: \"Ihr bösen Kinder, was habt ihr so lange im Walde geschlafen, wir haben geglaubt, ihr wollet gar nicht wiederkommen.\" Der Vater aber freute sich, denn es war ihm zu Herzen gegangen, daß er sie so allein zurückgelassen hatte.",
+      "image_prompt": "Dark dense forest at night under a bright full moon, tall shadowy trees all around, a narrow path of pale, shimmering pebbles winding through the undergrowth, soft moonlight reflecting on the stones and faintly illuminating moss, roots, and distant tree trunks in a quiet, eerie atmosphere.",
+      "image_file": "hansel_und_gretel/scene_4.png"
+    }
+  ]
+}

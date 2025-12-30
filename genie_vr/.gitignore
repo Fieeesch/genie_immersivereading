@@ -1,0 +1,122 @@
+# =============== #
+# Unity Generated #
+# =============== #
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+[addressableassetsdata]/*/bin/*
+[addressableassetsdata]/*/build/*
+[addressableassetsdata]/*/catalog_*
+
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.tsbuildinfo
+
+# Crashlytics or other crash reports
+CrashReport-*.txt
+
+# ================ #
+# OS / Editor Junk #
+# ================ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ============ #
+# IDE Support  #
+# ============ #
+
+# JetBrains Rider
+.idea/
+*.dotCover
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# ============= #
+# Unity Cache   #
+# ============= #
+# GI Cache
+Assets/StreamingAssets/aa.meta
+Assets/StreamingAssets/aa/*
+*.unitypackage
+
+# =============== #
+# TextMesh Pro    #
+# =============== #
+# Auto-generated font atlas files
+*.asset
+*.fontsettings
+
+# ============== #
+# Burst Compiler #
+# ============== #
+/[Bb]urstCache/
+
+# ================== #
+# Plastic SCM / VCS  #
+# ================== #
+PlasticSCM/
+.plastic/
+
+# ========== #
+# Builds     #
+# ========== #
+*.apk
+*.aab
+*.xcodeproj/
+*.xcworkspace/
+
+# ====================== #
+# Rider / Resharper Junk #
+# ====================== #
+_ReSharper*/
+*.[Rr]esults
+*.DotSettings.user
+
+# ======================= #
+# Backup / Temp Artifacts #
+# ======================= #
+*.tmp
+*.bak
+*.old
+*.orig
+*.swp
+
+# ====================== #
+# Samples and Tutorials  #
+# ====================== #
+Assets/Samples/
+Assets/TutorialInfo/

@@ -106,8 +106,7 @@ set COMMANDLINE_ARGS=--xformers --api
 5. Click **Apply and restart UI**
 
 **3.7** Download [LatentLabs 360 LoRA](https://civitai.com/models/10753/latentlabs360) and put it in 
-- `stable-diffusion-webui/models/Stable-diffusion/models/Lora` (create Lora folder if it doesn't exist)
-- `stable-diffusion-webui/extensions/sd-webui-additional-networks/models/lora`
+- `stable-diffusion-webui/models/Lora` (create Lora folder if it doesn't exist)
 
 ### 4. Run Scene Generation
 

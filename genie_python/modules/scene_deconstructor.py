@@ -95,9 +95,6 @@ class SceneSplitterGPT:
         Extracts the first list of integers from a model output.
         Accepts surrounding text and ignores everything except the first found array like [1,2,3].
         '''
-
-        print(text)
-        
         pattern = r"\[\s*-?\d+(?:\s*,\s*-?\d+)*\s*\]"
         match = re.search(pattern, text)
 

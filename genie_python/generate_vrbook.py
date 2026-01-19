@@ -10,7 +10,7 @@ import config
 
 DATA_ROOT = Path(config.DATABASE_DIRECTORY)
 
-def generate_vrbook(book_path: Path, book_name: str, author=None):
+def generate_vrbook(book_path: Path, book_name: str, author=None, prompts_only=False):
     # --- Prepare target directory ---
     vrbook_id = book_path.stem
     vrbook_dir = DATA_ROOT / vrbook_id
@@ -30,16 +30,18 @@ def generate_vrbook(book_path: Path, book_name: str, author=None):
     prompts = prompter.generate_prompts(scenes)
 
     # --- 3. Image Generation ---
-    print("Generating panorama images...")
-    pano_gen = PG.PanoramaGenerator(DATA_ROOT)
+    if not prompts_only:
+        print("Generating panorama images...")
+        pano_gen = PG.PanoramaGenerator(DATA_ROOT)
 
     scene_entries = []
 
     for i, (scene_text, prompt) in enumerate(zip(scenes, prompts)):
         img_filepath = f"{vrbook_id}/scene_{i}.png"
 
-        # generate 360° image
-        pano_gen.generate_360_panorama(prompt, "", img_filepath)
+        if not prompts_only:
+            # generate 360° image
+            pano_gen.generate_360_panorama(prompt, "", img_filepath)
 
         # create scene entry
         scene_entries.append({
@@ -47,51 +49,6 @@ def generate_vrbook(book_path: Path, book_name: str, author=None):
             "text": scene_text,
             "image_prompt": prompt,
             "image_file": img_filepath
-        })
-
-    # --- 4. Write Book-JSON to Database ---
-    vrbook_json = {
-        "id": vrbook_id,
-        "title": book_name,
-        "author": None,
-        "created_at": datetime.now().isoformat(timespec="seconds"),
-        "scenes": scene_entries
-    }
-
-    with (vrbook_dir / "book.json").open("w", encoding="utf-8") as f:
-        json.dump(vrbook_json, f, ensure_ascii=False, indent=2)
-
-    print("\nDone!")
-    print(f"Book imported to: {vrbook_dir}")
-
-def generate_vrbook_prompts_only(book_path: Path, book_name: str):
-    # --- Prepare target directory ---
-    vrbook_id = book_path.stem
-    vrbook_dir = DATA_ROOT / vrbook_id
-    vrbook_dir.mkdir(parents=True, exist_ok=True)
-
-    print(f"Importing book: {book_path}")
-    print(f"Output folder: {vrbook_dir}")
-
-    # --- 1. Text Splitting ---
-    print("Splitting book into scenes...")
-    splitter = SD.SceneSplitterGPT()
-    scenes = splitter.split_book(str(book_path))
-
-    # --- 2. Prompt Generation ---
-    print("Generating prompts...")
-    prompter = SD.PromptGeneratorGPT()
-    prompts = prompter.generate_prompts(scenes)
-
-    scene_entries = [dict()]
-
-    for i, (scene_text, prompt) in enumerate(zip(scenes, prompts)):
-        # create scene entry
-        scene_entries.append({
-            "index": i,
-            "text": scene_text,
-            "image_prompt": prompt,
-            "image_file": f"{vrbook_id}/scene_{i}.png"
         })
 
     # --- 4. Write Book-JSON to Database ---
@@ -150,7 +107,11 @@ def main():
             print(f"Error: file not found: {book_path}")
             sys.exit(1)
 
-        generate_vrbook_prompts_only(book_path, book_title)
+        author = None
+        if len(args) == 3:
+            author = args[2]
+
+        generate_vrbook(book_path, book_title, author, prompts_only=True)
         return
 
     # ------------------------------------------------------------

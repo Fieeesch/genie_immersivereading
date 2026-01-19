@@ -90,7 +90,8 @@ class PanoramaGenerator:
         for scene in data.get("scenes", []):
             prompt = scene.get("image_prompt", "")
             img_filename = scene.get("image_file", f"scene_{scene.get('index', 0)}.png")
-            self.generate_360_panorama(prompt, "", f"{book_id}/{img_filename}")
+            self.generate_360_panorama(prompt, "", f"{img_filename}")
+
 
     def _upscale_image(self, img_data):
         payload = {

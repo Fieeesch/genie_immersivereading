@@ -3,7 +3,12 @@
 Welcome to the repository for **GENIE: Generative Narrative Immersion Engine for Deep Reading Engagement**.
 It contains the system implementation described in our paper. This work is open-source for academic and non-commercial use only.
 
-TODO: Paste abstract
+## Abstract
+This paper presents GENIE (Generative Narrative Immersion Engine), a virtual reality (VR)-based reading system that generates story-adaptive $360^\circ$ panoramic environments from narrative text to deepen readers’ engagement with fictional stories. 
+To this end, an AI pipeline segments book text into scene-level units, derives location-focused image prompts via large language models, and synthesizes corresponding panoramas using diffusion-based image generation and neural super-resolution models. 
+In a within-subject user study ($N=32$) comparing this dynamic environment to a static baseline, we analyzed both subjective Story World Absorption (SWAS) and objective behavior (reading speed, head rotation). 
+The results show that our story-adaptive reading system significantly increased transportation and mental imagery. Moreover, our study reveals critical interaction effects between the narrative and generated environments. 
+These findings suggest that while generative VR can deepen absorption, its effectiveness is modulated by the visual concreteness and pacing of the source text, offering new design implications for the future of immersive reading experiences.
 
 ## Project Structure
 
@@ -146,5 +151,6 @@ uvicorn server:app
 2. Click `Yes` on all Popups
 3. Follow [this](https://developers.meta.com/horizon/documentation/unity/unity-tutorial-hello-vr/) tutorial to correctly setup the project
 4. Open `Scenes/ReadingScene` and import `TMP Essentials` when the popup opens
+5. Navigate to **Edit > Project Settings > XR Plug-in Management > OpenXR** and set Render Mode to Multi-pass
 4. With Link activated on Meta Quest HMD, start Unity Play Mode
 5. Put on the HMD and enjoy!
